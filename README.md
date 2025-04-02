@@ -1,8 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-# Lakshay Bhushan Portfolio Clone
-
-This is a clone of the [Lakshay Bhushan portfolio website](https://www.lakshb.dev/) built using Next.js and Tailwind CSS.
 
 ## Features
 
