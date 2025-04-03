@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  distDir: 'out',
+  // Remove or comment out the custom distDir for Vercel deployment
+  // distDir: 'out',
   images: {
     unoptimized: true,
     domains: ['ext.same-assets.com'],
