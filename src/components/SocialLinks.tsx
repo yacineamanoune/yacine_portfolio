@@ -17,7 +17,7 @@ export default function SocialLinks() {
       </Link>
 
       <Link
-        href="https://www.youtube.com/"
+        href="https://www.youtube.com/@BuildandDeploy-c1s"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"

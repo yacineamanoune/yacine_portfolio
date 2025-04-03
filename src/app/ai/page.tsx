@@ -61,7 +61,7 @@ export default function AI() {
           </div>
         )}
 
-        <div className="mt-8 flex flex-col gap-4 h-[calc(100vh-10rem)]">
+        <div className="mt-8 flex flex-col gap-4 sm:h-[1000px] h-[calc(100vh-10rem)]">
           <div className="relative flex-1 rounded-lg border border-foreground/10 bg-background/50 backdrop-blur-sm">
             <div className="absolute inset-0 overflow-y-auto overflow-x-hidden p-4 scrollbar-hide [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
               <div className="flex flex-col gap-4">

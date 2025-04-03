@@ -20,7 +20,7 @@ Salim's Details:
 - Email: me@salim.engineer
 - GitHub: https://github.com/rutaganda-salim
 - Twitter: https://x.com/salimnunez01
-- YouTube: https://www.youtube.com/
+- YouTube: https://www.youtube.com/@BuildandDeploy-c1s
 - Peerlist: https://peerlist.io/salim_
 - Resume: https://salim.engineer/resume
 - [Additional contact and personal details to be filled in by Salim]

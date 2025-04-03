@@ -44,24 +44,17 @@ const projects = [
 const blogs = [
   {
     id: 1,
-    title: 'Interactive 3D Button',
-    views: 845,
-    date: 'March 21, 2025',
-    link: '/blog/3d-button'
+    title: 'why we built shipfree',
+    views: 918,
+    date: 'Feb 21, 2025',
+    link: '/blog/why-we-built-shipfree'
   },
   {
     id: 2,
-    title: 'Building Responsive Layouts',
-    views: 632,
-    date: 'March 15, 2025',
-    link: '/blog/responsive-layout'
-  },
-  {
-    id: 3,
-    title: 'Modern Animation Techniques',
-    views: 517,
-    date: 'March 10, 2025',
-    link: '/blog/animation-technique'
+    title: 'Creating Grainy Textures in Figma',
+    views: 423,
+    date: 'Mar 15, 2025',
+    link: '/blog/grainy-textures'
   }
 ]
 

@@ -21,7 +21,7 @@ export default function BlogIndex() {
     {
       title: 'Modern Animation Techniques',
       date: 'March 10, 2025',
-      slug: 'animation-technique',
+      slug: 'animation-techinque',
       excerpt: 'Exploring modern web animation techniques using CSS and JavaScript.',
     }
   ]
