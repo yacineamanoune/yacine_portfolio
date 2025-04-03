@@ -24,7 +24,7 @@ export default function WhyWeBuiltShipFreePost() {
 
           <h2>The Problem We Faced</h2>
           <p>
-            My friend <a href="https://irere.dev" target="_blank" rel="noopener noreferrer">Irere Emmanuel</a> and I had been shipping products for a while, but the process was consistently stressful. The market offered solutions like <a href="https://shipfast.dev" target="_blank" rel="noopener noreferrer">ShipFast</a>, but at around $200, they were quite expensive for independent developers like us. We needed something more accessible, so we decided to build our own solution.
+            My friend <a href="https://irere.dev" target="_blank" rel="noopener noreferrer">Irere Emmanuel</a> and I had been shipping products for a while, but the process was consistently stressful. The market offered solutions like <a href="https://shipfa.st" target="_blank" rel="noopener noreferrer">ShipFast</a>, but at around $200, they were quite expensive for independent developers like us. We needed something more accessible, so we decided to build our own solution.
           </p>
 
           <h2>From Personal Tool to Open Source Project</h2>
