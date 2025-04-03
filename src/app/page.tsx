@@ -19,7 +19,7 @@ const projects = [
     id: 2,
     title: 'Mentor.ai',
     description: 'AI to mentor you on your codebase',
-    link: 'https://github.com/mentor.ai'
+    link: 'https://github.com/idee8/mentor.ai'
   },
   {
     id: 3,
