@@ -160,7 +160,7 @@ export default function AI() {
                 value={input}
                 onChange={handleInputChange}
                 disabled={isLoading}
-                className={`border-foreground/10 flex-1 rounded-l-full border border-r-0 bg-background px-4 py-2.5 focus:ring-0 focus:outline-none ${
+                className={`border-foreground/10 flex-1 rounded-l-full border border-r-0 bg-[#0A0A0A] px-4 py-2.5 focus:ring-0 focus:outline-none placeholder:text-primary${
                   isLoading ? "cursor-not-allowed" : "cursor-auto"
                 }`}
                 placeholder="Ask about me or my work!"
