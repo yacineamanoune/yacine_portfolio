@@ -5,6 +5,9 @@ import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
   title: "Salim Rutaganda",
   description: "A minimal personal portfolio website made with Next.js and Tailwind CSS",
+  icons: {
+    icon: '/favicon.png',
+  },
   openGraph: {
     title: "Salim Rutaganda",
     description: "A minimal personal portfolio website made with Next.js and Tailwind CSS",

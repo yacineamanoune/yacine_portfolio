@@ -77,12 +77,6 @@ const photos = [
     alt: 'setup',
     className: 'col-span-2 row-span-3'
   },
-  // {
-  //   id: 4,
-  //   src: '/photos/photo1.png',
-  //   alt: 'Project showcase',
-  //   className: 'col-span-2 row-span-1'
-  // }
 ]
 
 export default function Home() {
