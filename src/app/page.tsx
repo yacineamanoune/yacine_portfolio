@@ -100,7 +100,7 @@ export default function Home() {
         Hi there, I'm Salim, a 16 y/o high school student at RCA building the next Apple. I craft dope {' '}
         <span className="text-primary">AI</span> and{' '}
         <span className="text-primary">web dev</span> projects, I'm a freak {' '} 
-        <span className="text-primary">UI design</span> rocking a minimalist style.{' '} When I'm not coding, I'm chasing wild ideas to ignite my next epic entrepreneurial quest.
+        <span className="text-primary">UI designer</span> rocking a minimalist style.{' '} When I'm not coding, I'm chasing wild ideas to ignite my next epic entrepreneurial quest.
       </p>
 
       <SocialLinks />
