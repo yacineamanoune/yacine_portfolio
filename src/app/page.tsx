@@ -138,27 +138,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="pt-8">
-        <h2 className="font-medium tracking-tight text-foreground">Photos</h2>
-        <div className="pt-1.5 grid grid-cols-4 gap-4 auto-rows-[minmax(0,_1fr)] min-h-[400px]">
-          {photos.map(photo => (
-            <div
-              key={photo.id}
-              className={`relative w-full h-full overflow-hidden rounded-xl ${photo.className}`}
-            >
-              <Image
-                src={photo.src}
-                alt={photo.alt}
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                className="object-cover object-center transition-transform duration-300 hover:scale-105"
-                priority={photo.id === 1}
-              />
-            </div>
-          ))}
-        </div>
-      </section>
-
       <Footer />
     </>
   )
