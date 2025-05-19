@@ -11,33 +11,33 @@ import Image from 'next/image'
 const projects = [
   {
     id: 1,
+    title: 'Waitly',
+    description: 'Next.js + Notion product waitlist template',
+    link: 'https://waitly.idee8.agency'
+  },
+  {
+    id: 2,
     title: 'ShipFree',
     description: 'An open-source next.js saas boilerplate alternative to shipfast',
     link: 'https://shipfree.idee8.agency'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Mentor.ai',
     description: 'AI to mentor you on your codebase',
     link: 'https://github.com/idee8/mentor.ai'
   },
   {
-    id: 3,
+    id: 4,
     title: 'Careervault',
     description: 'Discover hidden job posts on linkedin',
     link: 'https://careervault.work'
   },
   {
-    id: 4,
+    id: 5,
     title: 'Metri',
     description: 'Grow your startup with data analytics',
     link: 'https://metri.salim.engineer'
-  },
-  {
-    id: 5,
-    title: 'Salim',
-    description: 'Me on the internet - one you are on',
-    link: 'https://salim.engineer'
   }
 ]
 
