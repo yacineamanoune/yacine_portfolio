@@ -117,7 +117,7 @@ export default function Home() {
           <p className="mt-4 w-fit rounded-md border border-foreground/10 bg-hoverColor px-2 py-1 text-xs text-foreground transition-all duration-300 ease-in-out">
             Feel free to explore my{' '}
             <Link
-              href="https://github.com/rutaganda-salim?tab=repositories"
+              href="https://github.com/rsalim0?tab=repositories"
               rel="noopener noreferrer"
               target="_blank"
               className="font-medium text-primary underline underline-offset-2 transition-all duration-150 ease-in-out md:hover:text-accent md:group-hover:text-accent"
