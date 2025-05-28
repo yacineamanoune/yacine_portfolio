@@ -46,7 +46,7 @@ export default function SocialLinks() {
       </Link>
 
       <Link
-        href="https://github.com/rutaganda-salim"
+        href="https://github.com/rsalim0"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"
