@@ -97,7 +97,7 @@ export default function Home() {
       </div>
 
       <p className="pt-4 text-sm text-foreground">
-        Hi there, I'm Salim, a 16 y/o high school student at RCA building the next Apple. I craft dope {' '}
+        Hi there, I'm Salim, a 16 y/o building Call. I craft dope {' '}
         <span className="text-primary">AI</span> and{' '}
         <span className="text-primary">web dev</span> projects, I'm a freak {' '} 
         <span className="text-primary">UI designer</span> rocking a minimalist style.{' '} When I'm not coding, I'm chasing wild ideas to ignite my next epic entrepreneurial quest.
