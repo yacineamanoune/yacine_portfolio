@@ -8,26 +8,9 @@ import { SiPeerlist } from "react-icons/si";
 export default function SocialLinks() {
   return (
     <div className="w-fit grid grid-cols-3 gap-4 pt-4 tracking-tight md:flex md:flex-row md:items-start">
-      <Link
-        href="/resume"
-        className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"
-      >
-        <HiOutlineDocumentText className="mr-1 h-4 w-4" />
-        <span className="text-sm text-primary">resume</span>
-      </Link>
 
       <Link
-        href="https://www.youtube.com/@BuildandDeploy-c1s"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"
-      >
-        <FaYoutube  className="mr-1 h-4 w-4" />
-        <span className="text-sm text-primary">youtube</span>
-      </Link>
-
-      <Link
-        href="https://x.com/salimnunez01"
+        href="https://x.com/cooldev_"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"
