@@ -10,7 +10,7 @@ export default function SocialLinks() {
     <div className="w-fit grid grid-cols-3 gap-4 pt-4 tracking-tight md:flex md:flex-row md:items-start">
 
       <Link
-        href="https://x.com/cooldev_"
+        href="https://x.com/yacamanou"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"
@@ -18,18 +18,9 @@ export default function SocialLinks() {
         <FiTwitter className="mr-1 h-4 w-4" />
         <span className="text-sm text-primary">twitter</span>
       </Link>
-      <Link
-        href="https://peerlist.io/salim_"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"
-      >
-        <SiPeerlist className="mr-1 h-4 w-4" />
-        <span className="text-sm text-primary">peerlist</span>
-      </Link>
 
       <Link
-        href="https://github.com/rsalim0"
+        href="https://github.com/yacineamanoune"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"
@@ -39,7 +30,7 @@ export default function SocialLinks() {
       </Link>
 
       <Link
-        href="mailto:me@salim.engineer"
+        href="mailto:amanouneyacine@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:text-accent md:hover:underline"

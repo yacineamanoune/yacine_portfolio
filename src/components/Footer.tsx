@@ -7,7 +7,7 @@ export default function Footer() {
       <hr className="h-px border-0 bg-foreground/20" />
       <div className="mx-1 flex items-center justify-between pt-4 md:mx-3">
         <span className="text-xs text-foreground">
-          © {new Date().getFullYear()} Salim
+          © {new Date().getFullYear()} Yacine
         </span>
         <NowTime />
       </div>
@@ -61,7 +61,7 @@ function NowTime() {
         />
       </div>
       <span className="text-xs text-foreground transition duration-150" style={{ opacity: 1 }}>
-        Kigali, {hours}
+        Paris, {hours}
         <span className="animate-pulse" style={{ opacity: blinking ? 0 : 1 }}>:</span>
         {minutes} {period}
       </span>

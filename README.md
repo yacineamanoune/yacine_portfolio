@@ -8,7 +8,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - Dynamic time display with blinking colon
 - Project showcase
 - Blog/thoughts pages
-- About/colophon page
+- About page
 
 ## Tech Stack
 
@@ -27,4 +27,4 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 First, run the development server:
-# salim
+

@@ -3,22 +3,22 @@ import "@/styles/globals.css";
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
-  title: "Salim Rutaganda",
-  description: "A minimal personal portfolio website made with Next.js and Tailwind CSS",
+  title: "Yacine Amanoune",
+  description: "Personal Portfolio Website",
   icons: {
     icon: '/favicon.png',
   },
   openGraph: {
-    title: "Salim Rutaganda",
-    description: "A minimal personal portfolio website made with Next.js and Tailwind CSS",
-    url: "https://salim.engineer",
-    siteName: "Salim Rutaganda",
+    title: "Yacine Amanoune",
+    description: "Personal Portfolio Website",
+    url: "https://www.yacineamanoune.com/",
+    siteName: "Yacine Amanoune",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Salim Rutaganda",
+        alt: "Yacine Amanoune",
       },
     ],
     locale: "en_US",
@@ -26,10 +26,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Salim Rutaganda",
+    title: "Y",
     description: "A minimal personal portfolio website made with Next.js and Tailwind CSS",
     images: ["/og.png"],
-    creator: "@salimnunez01", 
+    creator: "@yacamanou", 
   },
 };
 

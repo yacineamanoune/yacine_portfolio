@@ -25,23 +25,26 @@ export default function Header({ showHomeLink = false }: HeaderProps) {
         className={`flex items-center gap-5 ${!showHomeLink ? "ml-auto" : ""}`}
       >
         <Link
-          href="/thoughts"
+          href="/resume"
           className="hover:text-accent underline-offset-4 transition duration-150 ease-in-out hover:underline"
         >
-          <span className="text-primary">thoughts</span>
+          <span className="text-primary">resume</span>
         </Link>
+        
         <Link
-          href="/colophon"
+          href="/blog"
           className="hover:text-accent underline-offset-4 transition duration-150 ease-in-out hover:underline"
         >
-          <span className="text-primary">colophon</span>
+          <span className="text-primary">blog</span>
         </Link>
+        
         <Link
-          href="/ai"
+          href="/about"
           className="hover:text-accent underline-offset-4 transition duration-150 ease-in-out hover:underline"
         >
-          <span className="text-primary">salix://ai</span>
+          <span className="text-primary">about</span>
         </Link>
+    
       </div>
     </nav>
   );

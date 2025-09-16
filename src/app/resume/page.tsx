@@ -14,7 +14,7 @@ export default function Resume() {
       </h2>
 
       <p className="pt-4 text-sm font-normal text-foreground">
-        This is a placeholder for the resume page. In a real implementation, this would contain Salim's resume or redirect to a PDF download.
+        This is a placeholder for the resume page. This will contain my resume and a redirect to a PDF download.
       </p>
 
       <Footer />

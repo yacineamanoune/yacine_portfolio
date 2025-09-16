@@ -4,80 +4,18 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import SocialLinks from '@/components/SocialLinks'
 import ProjectCard from '@/components/ProjectCard'
-import BlogCard from '@/components/BlogCard'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const projects = [
   {
     id: 1,
-    title: 'Waitly',
-    description: 'Next.js + Notion product waitlist template',
-    link: 'https://waitly.idee8.agency'
-  },
-  {
-    id: 2,
-    title: 'ShipFree',
-    description: 'An open-source next.js saas boilerplate alternative to shipfast',
-    link: 'https://shipfree.idee8.agency'
-  },
-  {
-    id: 3,
-    title: 'Mentor.ai',
-    description: 'AI to mentor you on your codebase',
-    link: 'https://github.com/idee8/mentor.ai'
-  },
-  {
-    id: 4,
-    title: 'Careervault',
-    description: 'Discover hidden job posts on linkedin',
-    link: 'https://careervault.work'
-  },
-  {
-    id: 5,
-    title: 'Metri',
-    description: 'Grow your startup with data analytics',
-    link: 'https://metri.salim.engineer'
+    title: 'Letterboxd Movie Recommender',
+    description: 'Movie recommendations using Letterboxd user profile and collaborative filtering.',
+    link: 'projects/letterboxd-recommender'
   }
 ]
 
-const blogs = [
-  {
-    id: 1,
-    title: 'why we built shipfree',
-    views: 918,
-    date: 'Feb 21, 2025',
-    link: '/blog/why-we-built-shipfree'
-  },
-  {
-    id: 2,
-    title: 'Creating Grainy Textures in Figma',
-    views: 423,
-    date: 'Mar 15, 2025',
-    link: '/blog/grainy-textures'
-  }
-]
-
-const photos = [
-  {
-    id: 1,
-    src: '/photos/me.png',
-    alt: 'Workspace setup',
-    className: 'col-span-2 row-span-6'
-  },
-  {
-    id: 2,
-    src: '/photos/cat.png',
-    alt: 'My Cute cat',
-    className: 'col-span-2 row-span-3'
-  },
-  {
-    id: 3,
-    src: '/photos/setup.png',
-    alt: 'setup',
-    className: 'col-span-2 row-span-3'
-  },
-]
 
 export default function Home() {
   return (
@@ -85,22 +23,20 @@ export default function Home() {
       <Header />
 
       <h1 className="text-[2.5rem] font-serif tracking-tight text-primary">
-        Salim Rutaganda
+        Yacine Amanoune
       </h1>
 
       <div className="flex items-center gap-1.5 font-medium tracking-tight">
-        <h2 className="text-base text-foreground">designer</h2>
+        <h2 className="text-base text-foreground">ML/AI Engineer</h2>
         <span className="text-foreground/50">•</span>
-        <h2 className="text-base text-foreground">developer</h2>
+        <h2 className="text-base text-foreground">Data Scientist</h2>
         <span className="text-foreground/50">•</span>
-        <h2 className="text-base text-foreground">entrepreneur</h2>
+        <h2 className="text-base text-foreground">Developer</h2>
       </div>
 
       <p className="pt-4 text-sm text-foreground">
-        Hi there, I'm Salim, a 16 y/o building Call. I craft dope {' '}
-        <span className="text-primary">AI</span> and{' '}
-        <span className="text-primary">web dev</span> projects, I'm a freak {' '} 
-        <span className="text-primary">UI designer</span> rocking a minimalist style.{' '} When I'm not coding, I'm chasing wild ideas to ignite my next epic entrepreneurial quest.
+        Hello, my name is Yacine Amanoune. I'm passionate about machine learning and I love to{' '}
+        <strong className="text-primary">build</strong> stuff.
       </p>
 
       <SocialLinks />
@@ -113,31 +49,40 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="group">
-          <p className="mt-4 w-fit rounded-md border border-foreground/10 bg-hoverColor px-2 py-1 text-xs text-foreground transition-all duration-300 ease-in-out">
-            Feel free to explore my{' '}
-            <Link
-              href="https://github.com/rsalim0?tab=repositories"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="font-medium text-primary underline underline-offset-2 transition-all duration-150 ease-in-out md:hover:text-accent md:group-hover:text-accent"
-            >
-              GitHub
-            </Link>{' '}
-            for more projects. Most of them are open-source.
-          </p>
-        </div>
       </section>
 
       <section className="pt-8">
-        <h2 className="font-medium tracking-tight text-foreground">Blog</h2>
-        <div className="pt-1.5">
-          {blogs.map(blog => (
-            <BlogCard key={blog.id} blog={blog} />
-          ))}
+        <h2 className="font-medium tracking-tight text-foreground">Experience</h2>
+        <div className="pt-4">
+          <div className="mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <h3 className="flex items-center justify-between font-medium tracking-tight text-primary">
+                  <span>Machine Learning Engineer / Data Scientist</span>
+                </h3>
+                <span className="text-sm font-normal text-foreground">Technip Energies</span>
+              </div>
+              <div className="mt-1 sm:mt-0 text-sm text-foreground/70 font-mono">
+                2022 – Present
+              </div>
+            </div>
+            <ul className="mt-3 list-disc list-inside text-sm font-normal text-foreground space-y-2 pl-2">
+              <li>
+                Conversational Assistant for Internal Document Analysis – Designed a chatbot using RAG architecture with LangChain, significantly reducing processing time for operational teams and enabling high-potential use cases.
+              </li>
+              <li>
+                Automated Compliance Verification – Developed a document validation system based on LLMs, achieving 93% accuracy. Built an extraction pipeline for regulatory compliance checks.
+              </li>
+              <li>
+                Predictive Analytics for Project Costs – Built a K-means clustering model with 95% accuracy, improving cost forecasting. Automated data integration for real-time analysis of man-hour distribution.
+              </li>
+              <li>
+                Cable Routing Automation & 3D Grid Generation – Developed an integrated automatic cable routing system, reducing manual design time by 80%. Implemented A* pathfinding algorithms, 3D grid models, and computational geometry for industrial-scale automation.
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-
       <Footer />
     </>
   )
