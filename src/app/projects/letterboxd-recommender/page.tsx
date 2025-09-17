@@ -54,7 +54,7 @@ export default function LetterboxdRecommenderPost() {
           </p>
 
           <p>
-            <a href="https://github.com/yacamanou/letterboxd-recommender" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/yacineamanoune/movie_recommender" target="_blank" rel="noopener noreferrer">
               View the code on GitHub
             </a>
           </p>
