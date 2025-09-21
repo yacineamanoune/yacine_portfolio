@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { HiOutlineDocumentText } from 'react-icons/hi'
 import { FiTwitter, FiMail } from 'react-icons/fi'
-import { FaYoutube, FaGithub,FaLinkedin } from "react-icons/fa";
+import { FaYoutube, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiPeerlist } from "react-icons/si";
 
 
